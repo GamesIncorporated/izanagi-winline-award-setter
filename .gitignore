@@ -1,0 +1,10 @@
+/target/
+nb-configuration.xml
+nbactions.xml
+slot.log
+/nbproject/
+*.DS_Store
+*.idea
+*.log
+/src/main/resources/*
+.DS_Store

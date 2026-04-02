@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.gamesinc</groupId>
+    <artifactId>izanagi-winline-award-value-setter</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
+        <revision>0.0.0-SNAPSHOT</revision>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>slot-state-core</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>reel-util</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <!--        try to remove it and build-->
+            <groupId>com.gamesinc</groupId>
+            <artifactId>common</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>behaviour-factory</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>feature-core</artifactId>
+            <version>${revision}</version>
+        </dependency>
+            <!--        try to remove it and build-->
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>component-slot</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
+    <name>izanagi-winline-award-value-setter</name>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <!-- Compiler -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                    <configuration>
+                        <release>${maven.compiler.release}</release>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
