@@ -6,5 +6,5 @@ slot.log
 *.DS_Store
 *.idea
 *.log
-/src/main/resources/*
+/java/main/resources/*
 .DS_Store

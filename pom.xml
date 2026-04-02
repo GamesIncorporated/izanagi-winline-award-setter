@@ -9,8 +9,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>21</maven.compiler.release>
         <revision>0.0.0-SNAPSHOT</revision>
+        <slf4j.version>2.0.13</slf4j.version>
+        <junit.version>5.10.2</junit.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>point-util</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>exception</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>data-storage-service</artifactId>
+            <version>${revision}</version>
+        </dependency>
         <dependency>
             <groupId>com.gamesinc</groupId>
             <artifactId>slot-state-core</artifactId>
@@ -42,6 +59,17 @@
             <groupId>com.gamesinc</groupId>
             <artifactId>component-slot</artifactId>
             <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <name>izanagi-winline-award-value-setter</name>
