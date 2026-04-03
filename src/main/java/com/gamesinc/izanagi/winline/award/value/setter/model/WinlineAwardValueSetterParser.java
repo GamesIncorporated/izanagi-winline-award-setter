@@ -1,12 +1,12 @@
-package com.gamesinc.izanagi.winline.award.value.setter.view;
+package com.gamesinc.izanagi.winline.award.value.setter.model;
 
 
 import com.gamesinc.feature.core.Feature;
 import com.gamesinc.feature.core.FeatureState;
 import com.gamesinc.feature.core.model.AutoFeatureParser;
 import com.gamesinc.feature.core.model.IFeatureStateParser;
-import com.gamesinc.izanagi.winline.award.value.setter.model.WinlineAwardValueSetter;
-import com.gamesinc.izanagi.winline.award.value.setter.model.WinlineAwardValueSetterState;
+import com.gamesinc.izanagi.winline.award.value.setter.WinlineAwardValueSetter;
+import com.gamesinc.izanagi.winline.award.value.setter.WinlineAwardValueSetterState;
 import org.json.JSONException;
 import org.json.JSONObject;
 

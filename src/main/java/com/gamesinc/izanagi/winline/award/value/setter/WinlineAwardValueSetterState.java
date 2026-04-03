@@ -1,4 +1,4 @@
-package com.gamesinc.izanagi.winline.award.value.setter.model;
+package com.gamesinc.izanagi.winline.award.value.setter;
 
 
 import com.gamesinc.feature.core.Feature;

@@ -5,7 +5,7 @@ import javax.enterprise.context.Dependent;
 
 import com.gamesinc.feature.core.FeatureBehaviour;
 import com.gamesinc.feature.core.FeatureState;
-import com.gamesinc.izanagi.winline.award.value.setter.model.WinlineAwardValueSetter;
+import com.gamesinc.izanagi.winline.award.value.setter.WinlineAwardValueSetter;
 import com.gamesinc.lzanagi.behaviour.factory.annotation.AutoBehaviour;
 import com.gamesinc.slot.state.core.GameState;
 import org.json.JSONObject;
