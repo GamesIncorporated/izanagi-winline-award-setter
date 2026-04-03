@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gamesinc</groupId>
     <artifactId>izanagi-winline-award-value-setter</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,6 +30,11 @@
         </dependency>
         <dependency>
             <groupId>com.gamesinc</groupId>
+            <artifactId>matches-util</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
             <artifactId>slot-state-core</artifactId>
             <version>${revision}</version>
         </dependency>
@@ -52,6 +57,11 @@
         <dependency>
             <groupId>com.gamesinc</groupId>
             <artifactId>feature-core</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gamesinc</groupId>
+            <artifactId>izanagi-data-storage</artifactId>
             <version>${revision}</version>
         </dependency>
             <!--        try to remove it and build-->
