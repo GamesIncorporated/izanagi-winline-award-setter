@@ -32,6 +32,8 @@ public class WinlineAwardValueSetterActivationBehaviour extends FeatureBehaviour
 
     @Override
     public boolean execute(JSONObject jsonObject, GameState gameState, FeatureState featureState) {
+
+        //TODO: configure logging via reflection / java aspects
         LOGGER.debug("Feature: " + featureState.getFeature().getFeatureId() + " is activated");
         return true;
     }
